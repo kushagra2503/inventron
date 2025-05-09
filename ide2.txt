@@ -10,9 +10,9 @@
 const char* WIFI_SSID = "rss";
 const char* WIFI_PASSWORD = "papabol1234";
 
-// Server Configuration (Use HTTPS if possible)
-const char* SERVER_URL = "http://YOUR_SERVER_IP:5000/data";
-const int SERVER_PORT = 5000;
+// Server Configuration
+const char* SERVER_URL = "http://YOUR_COMPUTER_IP:8501/api/sensor_data";
+const int SERVER_PORT = 8501;
 
 // Sensor Pins
 #define DHTPIN D4
